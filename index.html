@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio de Younes</title>
+  <!-- ===== CSS Files ===== -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/skins/color-1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- ====== Style Switcher ====== -->
+  <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
+  <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+  <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+  <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
+  <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
+  <link rel="stylesheet" href="css/style-switcher.css">
+</head>
+<body>
+  <!-- ===== Main Container Start ===== -->
+  <div class="main-container">
+    <!-- ===== Aside Start ===== -->
+    <div class="aside">
+      <!-- <div class="logo">
+        <a href="#"><span>A</span>tlas</a>
+      </div> -->
+      <div class="nav-toggler">
+        <span></span>
+      </div>
+      <ul class="nav">
+        <li><a href="#home" class="active"><i class="fa fa-home"></i> Accueil</a></li>
+        <li><a href="#about"><i class="fa fa-user"></i> Présentation</a></li>
+        <li><a href="#services"><i class="fa fa-list"></i>BTS SIO</a></li>
+        <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+        <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
+      </ul>
+    </div>
+    <!-- ===== Aside End ===== -->
+    <!-- ===== Main Content Start ===== -->
+    <div class="main-content">
+      <!-- ===== Home Section Start ===== -->
+      <section class="home active section" id="home"> 
+        <div class="container">
+          <div class="row">
+            <div class="home-info padd-15">
+              <h3 class="hello">Bonjour, je suis <span class="name">Younes</span></h3>
+              <h3 class="my-profession"> <span class="typing">développeur en formation</span></h3>
+              <p>Je prépare actuellement un BTS SIO option SLAM en 1 an dans le cadre de ma reconversion professionnelle en tant que développeur.<br/>
+                 Passioné par la création d’applications, j'ai été admis en Bachelor Dev & Data en alternance à EFREI Paris 
+                 afin de continuer à apprendre les différentes facettes du métier et faire grandir mes compétences.</p>
+              <a href="images/docs/CV_YOUNESYOUSFI.pdf" target='blank' class="btn">Télécharger CV</a>
+            </div>
+            <div class="home-img padd-15">
+              <img src="images/hero.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== Home Section End ===== -->
+      <!-- ===== About Section Start ===== -->
+      <section class="about section" id="about"> 
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Présentation</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-content padd-15">
+              <div class="row">
+                <div class="about-text padd-15">
+                  <h3>Moi c'est Younes Yousfi, <span>Apprenti développeur.</span></h3>
+                  <p>Après avoir évolué en tant que manager dans le secteur de l'aide aux personnes à mobilité réduite,
+                     j'ai profité de la période d'inactivité imposée par le Covid pour mûrir mon projet de réorientation professionnelle.
+                     Passioné d'informatique et plus particulièrement de programmation, je m'épanouis actuellement dans cette voie.
+                    J'ai choisi d'entreprendre un BTS SIO comme première marche dans l'informatique car ce diplôme permet d'acquérir 
+                    un bon vernis technique. 
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="personal-info padd-15">
+                  <div class="row">
+                    <!-- <div class="info-item padd-15">
+                      <p>Birthday : <span>10 jan 2022</span></p>
+                    </div> -->
+                    <div class="info-item padd-15">
+                      <p>Age : <span>38</span></p>
+                    </div>
+                    <!-- <div class="info-item padd-15">
+                      <p>Site : <span>www.domain.com</span></p>
+                    </div> -->
+                    <!-- <div class="info-item padd-15">
+                      <p>Email : <span>younesyousfihcp@gmail.com</span></p>
+                    </div> -->
+                    <!-- <div class="info-item padd-15">
+                      <p>Diplome : <span>BTS SIO option SLAM</span></p>
+                    </div> -->
+                    <div class="info-item padd-15">
+                      <p>Langues : <span>Anglais, Allemand</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Zone : <span>Paris & périphérie</span></p>
+                    </div>
+                                        <div class="info-item padd-15">
+                      <p>Sports:<span>Ski & sports de montagne</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Hobbies : <span>Apiculture, Drone</span></p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="buttons padd-15">
+                      <a href="#contact" data-section-index="1" class="btn hire-me">Contactez moi</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="skills padd-15">
+                  <div class="row">
+                    <div class="skill-item padd-15">
+                      <h5>Front-End (JavaScript, React, Html, Css)</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 25%;"></div>
+                        <div class="skill-percent">25%</div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>Back-End (NodeJS/Express) & BDD (MariaDB, MongoDB)</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 25%;"></div>
+                        <div class="skill-percent">25%</div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>P.O.O (Java, Python)</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 15%;"></div>
+                        <div class="skill-percent">15%</div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>Design (Figma, Adobe XD, Illustrator)</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 30%;"></div>
+                        <div class="skill-percent">30%</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="education padd-15">
+                  <h3 class="title">Formation</h3>
+                  <div class="row">
+                    <div class="timeline-box padd-15">
+                      <div class="timeline shadow-dark">
+                        <!-- ===== timeline item ===== -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2022 - 2023
+                          </h3>
+                          <h4 class="timeline-title">Bachelor Dev & Data</h4>
+                          <p class="timeline-text">Bachelor Dev & Data à EFREI Paris.</p>
+                        </div>
+                             <!-- ===== timeline item ===== -->
+                             <div class="timeline-item">
+                              <div class="circle-dot"></div>
+                              <h3 class="timeline-date">
+                                <i class="fa fa-calendar"></i> 2021 - 2022
+                              </h3>
+                              <h4 class="timeline-title">BTS SIO option SLAM</h4>
+                              <p class="timeline-text">BTS en 1 an au sein du Groupe GEFOR à Paris.</p>
+                            </div>
+                                 <!-- ===== timeline item ===== -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2007 - 2009
+                          </h3>
+                          <h4 class="timeline-title">Master ECCE</h4>
+                          <p class="timeline-text">Master Professionnel Expertise, Communication & Consultation en Environnement. Paris 8.</p>
+                        </div>
+                                <!-- ===== timeline item ===== -->
+                              <div class="timeline-item">
+                              <div class="circle-dot"></div>
+                              <h3 class="timeline-date">
+                                <i class="fa fa-calendar"></i> 2005 - 2007
+                              </h3>
+                              <h4 class="timeline-title">Licence de Sociologie</h4>
+                              <p class="timeline-text">Université Paris 8.</p>
+                            </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="experience padd-15">
+                  <h3 class="title">Experience</h3>
+                  <div class="row">
+                    <div class="timeline-box padd-15">
+                      <div class="timeline shadow-dark">
+                        <!-- ===== timeline item ===== -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> Nov 2021 - Fev 2022
+                          </h3>
+                          <h4 class="timeline-title">Ceos Tech</h4>
+                          <p class="timeline-text">
+                            Stagiaire Développeur Full-Stack dans une start-up spécialisée dans la création de sites web pour restaurateurs.<br/>
+                            Intégration dans une équipe de 3 développeurs & 2 ui/ux designers.<br/>
+                            Réalisation du front-end d'une webapp (ReactJS) et déploiement sur Firebase.<br/>
+                            Réalisation du back-end d'une application mobile (ExpressJS, MongoDB).<br/>
+                            Utilisation extensive de Git/GitHub.<br/>
+                            Maintenance de BDD.<br/>
+                          </p>
+                        </div>
+                             <!-- ===== timeline item ===== -->
+                             <div class="timeline-item">
+                              <div class="circle-dot"></div>
+                              <h3 class="timeline-date">
+                                <i class="fa fa-calendar"></i> Aout 2021
+                              </h3>
+                              <h4 class="timeline-title">Sustcoop</h4>
+                              <p class="timeline-text">
+                                Projet de mise en relation entre producteurs et consommateurs en circuit court (modèle Open Food Network) :<br/>
+                                - Etude de l'existant;<br/>
+                                - Création d'une landing page (JS, Html/Css);</p>
+                            </div>
+                                 <!-- ===== timeline item ===== -->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2010 - 2022
+                          </h3>
+                          <h4 class="timeline-title">Itiremia</h4>
+                          <p class="timeline-text">
+                            Responsable d'équipe au service des voyageurs en situation de handicap, Paris Gare de Lyon.<br/>  
+                            - Management d'une équipe de 20 personnes, organisation des tâches et gestion des perturbations;<br/>
+                            - Relation avec le client SNCF et la centrale de réservation Accès Plus. </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== About Section End ===== -->
+      <!-- ===== Services Section Start ===== -->
+      <section class="service section" id="services">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>BTS SIO</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!-- ===== Service item Start ====== -->
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <a href="images/docs/SYNTHESE_E4_YOUNESYOUSFI.pdf" target='blank'>
+                    <i class="fa fa-clipboard"></i>
+                  </a>
+                </div>
+                <h4>Synthèse E4</h4>
+                <p>Récapitulatif des réalisations professionnelles effectuées au cours de cette année.</p>
+              </div>
+            </div>
+            <!-- ===== Service item End ====== -->
+             <!-- ===== Service item Start ====== -->
+             <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <a href="https://feedly.com/i/my" target='blank'>
+                    <i class="fa fa-eye"></i>
+                  </a>
+                </div>
+                <h4>Veille</h4>
+                <p>La veille est un outil essentiel dans un secteur en constante évolution. 
+                   Grace à l'agrégateur de flux Feedly, j'ai pu suivre l'actualité cybersécurité de manière globale
+                   et m'intéresser à l'aspect protection des données au travers du RGPD.
+                </p>
+              </div>
+            </div>
+            <!-- ===== Service item End ====== -->
+             <!-- ===== Service item Start ====== -->
+             <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-award"></i>
+                </div>
+                <h4>Certifications</h4>
+                <p>Au cours de cette année, j'ai suivi et validé le <a href="images/docs/attest-mooc-ANSSI.pdf" target="blank">MOOC de l'ANSSI</a> qui m'a permis 
+                   de m'initier aux notions de bases de la cybersécurité.</p>
+              </div>
+            </div>
+            <!-- ===== Service item End ====== -->
+             <!-- ===== Service item Start ====== -->
+             <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <a href="https://github.com/M2L2022" target="blank">
+                  <i class="fa fa-code"></i>
+                </a>
+                </div>
+                <h4>AP1</h4>
+                <p>La <a href="https://c.gefor.lnsh.in" target="blank">Maison des Ligues de Lorraine</a>...</p>
+              </div>
+            </div>
+            <!-- ===== Service item End ====== -->
+             <!-- ===== Service item Start ====== -->
+             <!-- <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-search"></i>
+                </div>
+                <h4>Web Design</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil velit ab itaque.</p>
+              </div>
+            </div> -->
+            <!-- ===== Service item End ====== -->
+             <!-- ===== Service item Start ====== -->
+             <!-- <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-bullhorn"></i>
+                </div>
+                <h4>Web Design</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil velit ab itaque.</p>
+              </div>
+            </div> -->
+            <!-- ===== Service item End ====== -->
+          </div>
+        </div>
+      </section>
+      <!-- ===== Services Section End ===== -->
+      <!-- ===== Portfolio Section Start ===== -->
+      <section class="portfolio section" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Portfolio</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="portfolio-heading padd-15">
+              <h2>Mes projets</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!-- ====== portfolio item start ====== -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <a href="https://lescrocsdelanight.fr/" target="blank">
+                  <img src="images/portfolio/crocs_night_screen.png" alt="">
+                  </a>  
+                </div>
+              </div>
+            </div>
+            <!-- ====== portfolio item End ====== -->
+             <!-- ====== portfolio item start ====== -->
+             <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/m2L_screen.png" alt="">
+                </div>
+              </div>
+            </div>
+            <!-- ====== portfolio item End ====== -->
+             <!-- ====== portfolio item start ====== -->
+             <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== Portfolio Section End ===== -->
+      <!-- ===== Contact Section Start ===== -->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Contactez-moi</h2>
+            </div>
+          </div>
+          <h3 class="contact-title padd-15">Des questions?</h3>
+          <h4 class="contact-sub-title padd-15">JE SUIS A VOTRE DISPOSITION</h4>
+          <div class="row">
+            <!-- ===== Contact info item start ====== -->
+            <div class="contact-info-item padd-15">
+              <div class="icon">
+                <a href="https://www.linkedin.com/in/younes-yousfi" target='blank'>
+                <i class="fab fa-linkedin"></i></div>
+                </a>
+              <h4>LinkedIn</h4>
+              <p>in/younes-yousfi</p>
+            </div>
+            <!-- ===== Contact info item end ====== -->
+             <!-- ===== Contact info item start ====== -->
+             <div class="contact-info-item padd-15">
+              <div class="icon">
+                <a href="https://github.com/yuyu1403" target='blank'>
+                  <i class="fab fa-github"></i></div>
+                </a>
+              <h4>GitHub</h4>
+              <p>yuyu1403</p>
+            </div>
+            <!-- ===== Contact info item end ====== -->
+             <!-- ===== Contact info item start ====== -->
+             <div class="contact-info-item padd-15">
+              <div class="icon">
+                <i class="fa fa-envelope"></i></div>
+              <h4>Email</h4>
+              <p>younesyousfihcp@gmail.com</p>
+            </div>
+            <!-- ===== Contact info item end ====== -->
+             <!-- ===== Contact info item start ====== -->
+             <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fa fa-globe-europe"></i></div>
+              <h4>Site</h4>
+              <p>disponible bientôt</p>
+            </div>
+            <!-- ===== Contact info item end ====== -->
+          </div>
+          <h3 class="contact-title padd-15">ECRIVEZ-MOI</h3>
+          <!-- <h4 class="contact-sub-title padd-15"></h4> -->
+          <!-- ====== Contact Form ====== -->
+          <div class="row">
+            <div class="contact-form padd-15">
+              <div class="row">
+                <div class="form-item col-6 padd-15">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Name">
+                  </div>
+                </div>
+                <div class="form-item col-6 padd-15">
+                  <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-item col-12 padd-15">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Subject">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-item col-12 padd-15">
+                  <div class="form-group">
+                    <textarea name="" class="form-control" id=""  placeholder="Message"></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-item col-12 padd-15">
+                  <button type="submit" class="btn">Envoyer</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== Contact Section End ===== -->
+    </div>
+    <!-- ===== Main Content End ===== -->
+  </div>
+  <!-- ===== Main Container End ===== -->
+  <!-- ===== Style Switcher Start ===== -->
+  <div class="style-switcher">
+    <div class="style-switcher-toggler s-icon">
+      <i class="fas fa-cog fa-spin"></i>
+    </div>
+    <div class="day-night s-icon">
+      <i class="fas "></i>
+    </div>
+    <h4>Theme Colors</h4>
+    <div class="colors">
+      <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+      <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+      <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+      <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+      <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+    </div>
+  </div>
+  <!-- ===== Style Switcher End ===== -->
+  <!-- ===== JS Files ===== -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+  <script src="js/script.js"></script>
+  <script src="js/style-switcher.js"></script>
+</body>
+</html>
